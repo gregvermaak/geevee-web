@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <header className="bg-white/35 sticky top-0 z-50 w-full">
+    <header className="sticky top-0 z-50 w-full bg-white/5 backdrop-blur-lg dark:bg-gray-800/5">
       <nav
         className="mx-auto flex max-w-7xl items-center justify-between gap-x-6 p-6 lg:px-8"
         aria-label="Global"
@@ -28,7 +28,7 @@ export default function Navbar() {
               width={50}
               height={50}
             />
-            <h1 className="relative flex flex-row items-baseline gap-1 text-2xl font-bold">
+            <h1 className="relative hidden flex-row items-baseline gap-1 text-2xl font-bold lg:flex">
               <span className="sr-only">geevee studio</span>
               <span className="tracking-tight hover:cursor-pointer">
                 geevee<span className="text-emerald-600">studio</span>
