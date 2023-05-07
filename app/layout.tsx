@@ -2,8 +2,9 @@ import "./globals.css";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/components/theme-provider";
 import localFont from "next/font/local";
-import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
+
 
 const gintronic = localFont({
   src: [
