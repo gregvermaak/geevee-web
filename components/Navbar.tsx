@@ -15,15 +15,15 @@ export default function Navbar() {
             href="/"
           >
             <Image
-              className="block h-auto w-auto dark:hidden"
-              src="/geevee-trim.png"
+              className="block dark:hidden"
+              src="/geevee-vector.svg"
               alt="GeeVee Studio"
               width={50}
               height={50}
             />
             <Image
-              className="hidden h-auto w-auto dark:block"
-              src="/geevee-dark.png"
+              className="hidden dark:block"
+              src="/geevee-dark-vector.svg"
               alt="GeeVee Studio"
               width={50}
               height={50}

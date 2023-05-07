@@ -9,15 +9,15 @@ export default function Home() {
       </h1>
       <Link href="/">
         <Image
-          className="float mx-auto block h-auto w-auto drop-shadow-2xl dark:hidden"
-          src="/geevee-trim.png"
+          className="float mx-auto block drop-shadow-2xl dark:hidden lg:max-w-xl"
+          src="/geevee-vector.svg"
           alt="GeeVee Studio"
           width={500}
           height={500}
         />
         <Image
-          className="float mx-auto hidden h-auto w-auto drop-shadow-2xl dark:block"
-          src="/geevee-dark.png"
+          className="float mx-auto hidden drop-shadow-2xl dark:block"
+          src="/geevee-dark-vector.svg"
           alt="GeeVee Studio"
           width={500}
           height={500}
