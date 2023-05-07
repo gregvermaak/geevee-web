@@ -1,8 +1,9 @@
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/navbar";
 import "./globals.css";
+import { cn } from "@/lib/utils";
 import localFont from "next/font/local";
-import Footer from "@/components/Footer";
-import Providers from "@/components/Providers";
+import Footer from "@/components/footer";
+import { ThemeProvider } from "@/components/theme-provider";
 
 const gintronic = localFont({
   src: [
@@ -41,13 +42,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${gintronic.variable}`}>
-      <body className="list-none bg-slate-200 text-slate-800 transition-all duration-700 dark:bg-gray-800 dark:text-slate-200">
-        <Providers>
+    <html lang="en">
+      <body
+        className={cn(
+          "min-h-screen bg-background font-sans antialiased",
+          gintronic.variable,
+        )}
+      >
+      <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <Navbar />
           <div className="mx-auto max-w-7xl">{children}</div>
           <Footer />
-        </Providers>
+        </ThemeProvider>
       </body>
     </html>
   );

@@ -1,4 +1,4 @@
-import DarkModeToggle from "@/components/DarkModeToggle";
+import ModeToggle from "@/components/mode-toggle";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -45,7 +45,7 @@ export default function Navbar() {
                 contact
               </span>
             </Link>
-            <DarkModeToggle />
+            <ModeToggle />
           </div>
         </div>
       </nav>
