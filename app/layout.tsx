@@ -2,8 +2,9 @@ import "./globals.css";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/components/theme-provider";
 import localFont from "next/font/local";
-import Navbar from "@/components/navbar";
-import Footer from "@/components/footer";
+import Navbar from "@/components/main-navbar";
+import Footer from "@/components/site-footer";
+
 
 
 
