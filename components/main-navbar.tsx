@@ -24,7 +24,7 @@ export default function Navbar() {
             <h1 className="relative hidden flex-row items-baseline gap-1 text-2xl font-bold lg:flex">
               <span className="sr-only">geevee studio</span>
               <span className="tracking-tight hover:cursor-pointer">
-                geevee<span className="text-emerald-600">studio</span>
+                geevee<span className="text-emerald-500">studio</span>
               </span>
               {/* <sup className="absolute left-[calc(100%+.1rem)] top-0 text-xs font-bold text-black">
                   [BETA]
